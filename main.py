@@ -36,8 +36,8 @@ if __name__ == '__main__':
         print("""Choose Operation
               1. Encode Message
               2. Decode Message
-              4. Clear Screen
-              3. Exit
+              3. Clear Screen
+              4. Exit
               """)
         opt = input("option: ")
         if opt.isdigit():
@@ -52,9 +52,9 @@ if __name__ == '__main__':
                 print("\n")
                 print(msg)
                 print("\n")
-            elif int(opt) == 4:
-                os.system('cls')
             elif int(opt) == 3:
+                os.system('cls')
+            elif int(opt) == 4:
                 exit()
             else:
                 print("Invalid Option choosen")
